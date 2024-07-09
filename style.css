@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    
+}
+
+.gradient-background {
+    background: linear-gradient(135deg, #36bfbe, rgb(42, 53, 125));
+}
+
+.header-section {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-section img {
+    width: 250px;
+}
+
+.login-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .nav-item .nav-link {
+    color: black;
+    padding: 8px 16px 8px 16px !important;
+}
+
+.login-button {
+    display: flex;
+    gap: 28px;
+}
+
+.hero-section .container {
+    max-width: 1300px;
+    color: white;
+}
+
+.banner1 {
+    background: linear-gradient(60deg, rgba(0, 6, 45, 0.5), rgba(0, 0, 0, 0.1)), url(./images/herosimg.png) center center;
+    background-size: cover;
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 52px;
+}
+
+.hero-section {
+    padding: 8rem 0;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #36BFBB, #317a9e);
+    font-size: 14.4px !important;
+    border-radius: 3px !important;
+    padding: 20.8px 32px !important;
+    text-transform: uppercase;
+    transition: all ease 400ms !important;
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(20px) !important;
+    font-size: 14.4px !important;
+    color: white !important;
+    border-radius: 3px !important;
+    padding: 20.8px 32px !important;
+    transition: all ease 400ms !important;
+}
+
+.hero-section .lead {
+    font-weight: 400;
+    padding: 16px 0 24px;
+}
+
+.button-story .btn-primary {
+    background: linear-gradient(135deg, #36BFBB, #317a9e);
+    font-size: 14.4px !important;
+    border-radius: 3px !important;
+    padding: 20.8px 32px !important;
+    transition: all ease 400ms;
+}
+
+.mission-section .our-mission {
+    text-align: center;
+}
+
+.mission-section .col .mission-card {
+    padding: 48px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    min-height: 292px;
+    transition: all ease 400ms;
+}
+
+.mission-section .col p {
+    padding: 24px 0 0;
+}
+
+.mission-section {
+    padding: 120px 24px;
+    margin: 0 82.8px;
+}
+
+.mission-section .our-mission h3 {
+    font-size: 38.4px;
+    margin-bottom: 1.5rem;
+}
+
+.mission-section .our-mission p {
+    color: #666666;
+    font-size: 19.2px;
+}
+
+.mission-section .container p {
+    color: #666666;
+}
+
+.button-story {
+    text-align: center;
+    padding: 32px;
+    transition: all ease 400ms;
+}
+
+.why-section {
+    background: linear-gradient(135deg, rgb(54, 191, 190, 0.9), rgb(42, 53, 125, 0.9)), url(./images/background-why.png);
+    background-size: cover;
+    padding: 8rem;
+}
+
+.why-section .container h2, .why-section .container p {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.why-section h2 {
+    font-size: 38.4px;
+    margin: 0 0 24px 0;
+}
+
+.why-section p {
+    font-size: 19.2px;
+}
+
+.why-section img {
+    margin: 0 48px 0 0;
+}
+
+.why-section .container .col .btn-light {
+  color: rgb(49, 122, 158);
+  padding: 1.3rem 2rem;
+  border-radius: 3px;
+  transition: all ease 400ms;
+}
+
+.policy-section .container {
+    text-align: center;
+    padding: 75px 0 0 0;
+}
+
+.policy-section .container h2 {
+    margin: 0 0 24px 0;
+    font-size: 38.4px;
+}
+
+.policy-section .container h3 {
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+    font-size: 20px;
+    margin: 0 0 24px 0;
+    font-weight: 400;
+}
+
+.policy-section .container p {
+    color: #666666;
+    padding-bottom: 75px;
+}
+
+.invite-section .invite-text {
+    text-align: center;
+    padding: 75px 0 0 0;
+    background: linear-gradient(135deg, rgb(54, 191, 190, 0.9), rgb(42, 53, 125, 0.9)), url(./images/invite-sec.png) center center;
+    background-size: cover;
+    padding: 8rem;
+}
+
+.invite-section .invite-text h2 {
+    margin: 0 0 24px 0;
+    font-size: 38.4px;
+    color: white;
+}
+
+.invite-section .invite-text p {
+    font-size: 16px;
+    padding: 12px 0 16px 0;
+    color: white;
+}
+
+.invite-section .invite-text .btn-light {
+    color: rgb(49, 122, 158);
+    padding: 1.3rem 2rem;
+    border-radius: 3px;
+    transition: all ease 400ms;
+}
+
+.footer-section {
+    background: #000737;
+    padding: 40px;
+}
+
+.footer-section .container .row .col p {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 0 ;
+}
+
+.footer-section .container .row .nav .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-section .container .row .col h5 {
+    color: white;
+}
+
+.under-line .images a {
+    padding-right: 32px;
+}
+
+.text-links .links2 a {
+    color: white;
+    text-decoration: none;
+    padding-right: 32px;
+}
+
+.search-sec .container .searchbar input {
+    width: 560px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.search-sec {
+    background: #f0efef;
+    padding: 20px 0 20px 0 !important;
+    display: none;
+}
+
+.search-open {
+    display: block;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-secondary:hover{
+    transform: scale(1.05);
+}
+
+.btn-light:hover {
+    transform: scale(1.05);
+}
+
+.mission-card:hover {
+    transform: scale(1.05);
+}
+
+#donate {
+    background: linear-gradient(135deg, #36BFBB, #317a9e);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    transition: all ease 400ms;
+    border-width: 0;
+    width: 106px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#donate img {
+    margin: 0 5px 4px 0;
+}
+
+#donate:hover {
+    transform: scale(1.05);
+}
+
+footer .nav-link:hover {
+    color: white !important;
+}
+
+footer .links2:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
